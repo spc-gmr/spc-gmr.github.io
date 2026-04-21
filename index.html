@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>すぺエすの自己紹介です!</title>
+
+  <!-- CSS読み込み -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <h1 onclick="nameClick()">ゲーム好きのすぺエすです!</h1>
+
+  <div id="modal" onclick="closeModal()">
+    <img id="modalImg">
+  </div>
+
+  <img src="すぺエす.png" onclick="openModal(this)">
+
+  <h2>自己紹介</h2>
+  <p>
+    FPSゲームが好きで特にValorantをしています!<br>
+    動画編集も好きで推しの切り抜きをしたりしています!
+  </p>
+
+  <h2>趣味</h2>
+  <ul>
+    <li>FPSゲーム</li>
+    <li>ホラーゲーム</li>
+    <li>動画編集</li>
+  </ul>
+
+  <button onclick="showMessage()">メッセージ表示</button>
+  <p id="message"></p>
+
+  <h2>好きなゲーム</h2>
+  <ul>
+    <li>Valorant</li>
+    <li>Apex</li>
+    <li>Minecraft</li>
+    <li>UnderTale</li>
+  </ul>
+
+
+  <button onclick="changeTheme()">テーマ変更</button>
+
+
+  <!-- JS読み込み（最後に置くのがポイント） -->
+  <script src="script.js"></script>
+
+</body>
+</html>
