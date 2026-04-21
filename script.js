@@ -1,4 +1,4 @@
-alert("JS読み込まれてるよ");
+alert("見てくれてありがとうございます!");
 
 function showMessage() {
   const messages = [
