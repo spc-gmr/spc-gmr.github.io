@@ -6,6 +6,15 @@ function showMessage() {
     "動画編集はDaVinci Resolveでやっています!",
     "一緒にゲームやりましょう!"
   ];
+
+  const i = Math.floor(Math.random() * messages.length);
+  const msg = document.getElementById("message");
+
+  if (msg) {
+    msg.textContent = messages[i];
+  } else {
+    console.log("messageが見つからない");
+  }
 }
 
 function nameClick() {
